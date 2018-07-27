@@ -26,11 +26,13 @@ def introduce_self
   return "Hello humans, my name is #{@name}, I am #{age} years old"
 end
 
-gnome1 = GardenGnome.new("Walter the Worst")
+gnome1 = GardenGnome.new 
 
-gnome2 = GardenGnome.new("James the Jerk", "3421")
+gnome2 = GardenGnome.new("Walter the Worst")
 
-gnome3 = GardenGnome.new("Alfed the Abhorrent", "579")
+gnome3 = GardenGnome.new("James the Jerk", "3421")
+
+gnome4 = GardenGnome.new("Alfed the Abhorrent", "579")
 @gluten_allergy = true 
 
 end
